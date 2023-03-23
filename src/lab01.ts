@@ -40,5 +40,3 @@ console.log("Percentagem de raparigas: " + calcularPercentagemRaparigas(10, 20))
 export { calcularPercentagemRapazes };
 export { calcularPercentagemRaparigas };
 
-//aksmdkamsdmka 
-//vitoria

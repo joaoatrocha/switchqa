@@ -9,6 +9,6 @@ let distancia1: number = velocidade * distanciaTotal;
     return velocidade * distanciaTotal;
 }
 
-console.log ("A distancia percorrida pelo Ze é");
+console.log ("");
 
 

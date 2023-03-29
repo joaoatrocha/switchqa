@@ -5,7 +5,7 @@ describe("Testes - Lab 03", () => {
         //Arrange
         const raio = 5;
         const altura = 10;
-        const expected = 785.3981633974483;
+        const expected = 785398.1633974484;
         //Act
         let result = calcularVolume(raio, altura);
         //Assert

@@ -34,8 +34,8 @@ function calcularPercentagemRaparigas(nrapazes: number, nraparigas: number): num
 
 }
 
-console.log("Percentagem de rapazes: " + calcularPercentagemRapazes(10, 20));
-console.log("Percentagem de raparigas: " + calcularPercentagemRaparigas(10, 20));
+console.log(calcularPercentagemRapazes(10, 20));
+console.log(calcularPercentagemRaparigas(10, 20));
 
 export { calcularPercentagemRapazes };
 export { calcularPercentagemRaparigas };

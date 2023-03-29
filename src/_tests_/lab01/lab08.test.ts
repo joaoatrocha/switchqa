@@ -1,4 +1,4 @@
-import { velocidadeRelampago } from "../../lab08";
+import { velocidadeRelampago } from "../../lab01/lab08";
 
 describe("velocidadeRelampago", () => {
     test("velocidadeRelampago deve retornar 34", () => {

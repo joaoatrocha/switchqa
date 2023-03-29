@@ -1,4 +1,4 @@
-import { precoRamo } from "../../lab02";  
+import { precoRamo } from "../../lab01/lab02";  
 
 describe('precoRamo', () => {
   it('1', () => {

@@ -1,67 +1,42 @@
-/**
- * Lab 01
- *
- * This lab is designed to help you get familiar with the TypeScript language.  You will be writing a few functions.
- *
- * @param boys Number of boys in class.
- * @param girls Number of girls in class.
- *
- * @returns Boys and girls' percentage.
- */
-export function calculateGenderPercentage(boys: number, girls: number): [number, number] {
+// Dada a quantidade de rapazes e raparigas de uma turma, calcule a percentagem de rapazes e raparigas dessa turma. 
 
-    let total = boys + girls;
+// Dúvidas
+// •Qual o tamanho da turma?
+// •Quantos rapazes?
+// •Quantos raparigas?
+// •Como se calcula uma percentagem?
 
-    if (total == 0)
-        throw new RangeError('Boys and girls must not equal zero');
+// Abordagem
+// •Perguntar a quantidade de rapazes e raparigas.
+// •Total = rapazes + raparigas
+// •Percentagem = valor parcial / total
 
-    let boysPercentage = boys / total;
-    let girlsPercentage = girls / total;
+// Pseudocodigo 
+//     
 
-    return [boysPercentage, girlsPercentage];
+function calcularPercentagemRapazes(nrapazes: number, nraparigas: number): number {
+    let total: number;
+    let percentagemRapazes: number;
+    total = nrapazes + nraparigas;
+    percentagemRapazes = nrapazes / total;
+
+    return percentagemRapazes;
+
 }
 
+function calcularPercentagemRaparigas(nrapazes: number, nraparigas: number): number {
+    let total: number;
+    let percentagemRaparigas: number;
+    total = nrapazes + nraparigas;
+    percentagemRaparigas = nraparigas / total;
 
-/**
- * Lab 01
- *
- * This lab is designed to help you get familiar with the TypeScript language.  You will be writing a few functions.
- *
- * @param boys Number of boys in class.
- * @param girls Number of girls in class.
- *
- * @returns Boys' percentage.
- */
-export function calculateBoysPercentage(boys: number, girls: number): number {
+    return percentagemRaparigas;
 
-    let total = boys + girls;
-
-    if (total == 0)
-        throw new RangeError('Boys and girls must not equal zero');
-
-    let boysPercentage = boys / total;
-
-    return boysPercentage;
 }
 
-/**
- * Lab 01
- *
- * This lab is designed to help you get familiar with the TypeScript language.  You will be writing a few functions.
- *
- * @param boys Number of boys in class.
- * @param girls Number of girls in class.
- *
- * @returns Girls' percentage.
- */
-export function calculateGirlsPercentage(boys: number, girls: number): number {
+console.log("Percentagem de rapazes: " + calcularPercentagemRapazes(10, 20));
+console.log("Percentagem de raparigas: " + calcularPercentagemRaparigas(10, 20));
 
-    let total = boys + girls;
+export { calcularPercentagemRapazes };
+export { calcularPercentagemRaparigas };
 
-    if (total == 0)
-        throw new RangeError('Boys and girls must not equal zero');
-
-    let girlsPercentage = girls / total;
-
-    return girlsPercentage;
-}

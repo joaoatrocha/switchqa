@@ -1,4 +1,4 @@
-import { calcularHipotenusa } from '../../lab05'
+import { calcularHipotenusa } from '../../lab01/lab05'
 
 describe('calcularHipotenusa', () => {
     test('calcularHipotenusa deve retornar 10.816653826391969', () => {

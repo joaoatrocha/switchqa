@@ -1,4 +1,4 @@
-import { calcularAlturaEdificio } from "../../lab011";
+import { calcularAlturaEdificio } from "../../lab01/lab011";
 
 describe("calcularAlturaEdificio", () => {	
     it("Deve retornar a altura do edificio", () => {

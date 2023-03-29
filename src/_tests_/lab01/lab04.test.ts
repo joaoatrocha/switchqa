@@ -1,4 +1,4 @@
-import { calcularPerimetro } from '../../lab04'
+import { calcularPerimetro } from '../../lab01/lab04'
 
 describe('calcularPerimetro', () => {
   it('calcula o perimetro corretamente', () => {

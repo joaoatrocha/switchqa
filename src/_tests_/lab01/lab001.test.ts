@@ -1,5 +1,5 @@
-import { calcularPercentagemRapazes } from "../../lab01";
-import { calcularPercentagemRaparigas } from "../../lab01";
+import { calcularPercentagemRapazes } from "../../lab01/lab01";
+import { calcularPercentagemRaparigas } from "../../lab01/lab01";
 
 describe("lab01", () => {
     test("calcularPercentagemRapazes", () => {

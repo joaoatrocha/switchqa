@@ -1,4 +1,4 @@
-import { calcularVolume } from "../../lab03";
+import { calcularVolume } from "../../lab01/lab03";
 
 describe("Testes - Lab 03", () => {
     test("Teste 1", () => {

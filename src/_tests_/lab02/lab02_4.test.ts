@@ -67,5 +67,3 @@ describe("Testes - Lab 02 - Exercício 4", () => {
         expect(resultado).toBe(expected);
     })
 })
-
-//123

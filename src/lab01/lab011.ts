@@ -4,9 +4,5 @@ export function calcularAlturaEdificio(tempoQueda: number, aceleracaoGravidade: 
     const altura = 0.5 * aceleracaoGravidade * tempoQueda ** 2;
     return altura;
   }    
-const tempoQueda = 2; // tempo de queda da pedra em segundos
-const aceleracaoGravidade = 9.8; // aceleração da gravidade em m/s²
 
-const height = calcularAlturaEdificio(tempoQueda, aceleracaoGravidade);
-
-console.log('A altura do edifício');
+console.log(calcularAlturaEdificio(2, 9.8))

@@ -22,7 +22,8 @@ export function obterDigito(numero: number): number {
     if (numero < 100 || numero > 999) {
       console.log("Número não tem 3 dígitos");
       digito1 = -1;
-    } else {
+    } 
+    else {
       digito3 = numero % 10;
       digito2 = Math.floor((numero / 10) % 10);
       digito1 = Math.floor(numero / 100) % 10;

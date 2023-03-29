@@ -1,11 +1,9 @@
 function celciusToFahnereite(celcius: number): number {
 
-let celcius1: number = 32;
-let fahnereit: number = 0;
-let fahnereite: number = celcius * 1.8 - 32;
-  return celcius * 1.8 + 32;
+  let fahnereit: number = 32 + (9 / 5) * celcius;
+  return fahnereit;
 }
 
-console.log("");
+console.log(32);
 
 export { celciusToFahnereite };

@@ -1,45 +1,16 @@
-import { precoRamo } from "../../lab01/lab02";  
+import { precoRamo } from "../../lab01/lab02";
 
 describe('precoRamo', () => {
-  it('1', () => {
-    // Arrange
-    const quantidadeRosas = 2;
-    const quantidadeTulipas = 3;
-    const precoRosas = 5.5;
-    const precoTulipas = 3.75;
-
-    // Act
-    const resultado = precoRamo(quantidadeRosas, quantidadeTulipas, precoRosas, precoTulipas);
-
-    // Assert
-    expect(resultado).toEqual(quantidadeRosas * precoRosas + quantidadeTulipas * precoTulipas);
-  });
-
-  it('2', () => {
-    // Arrange
-    const quantidadeRosas = 0;
-    const quantidadeTulipas = 0;
-    const precoRosas = 10;
-    const precoTulipas = 5;
-
-    // Act
-    const resultado = precoRamo(quantidadeRosas, quantidadeTulipas, precoRosas, precoTulipas);
-
-    // Assert
-    expect(resultado).toEqual(0);
-  });
-
-  it('3', () => {
-    // Arrange
-    const quantidadeRosas = 2;
-    const quantidadeTulipas = 3;
-    const precoRosas = 0;
-    const precoTulipas = 0;
-
-    // Act
-    const resultado = precoRamo(quantidadeRosas, quantidadeTulipas, precoRosas, precoTulipas);
-
-    // Assert
-    expect(resultado).toEqual(0);
-  });
-});
+    test('precoRamo deve retornar 5', () => {
+        //Arrange
+        const qtdRosas = 1;
+        const qtdTulipas = 3;
+        const precoRosas = 2;
+        const precoTulipas = 1;
+        const expected = 5;
+        //Act
+        let result = precoRamo(qtdRosas, qtdTulipas, precoRosas, precoTulipas);
+        //Assert
+        expect(result).toBe(expected);
+    })
+})

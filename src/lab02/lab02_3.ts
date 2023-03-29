@@ -9,3 +9,4 @@ export function distance(x1: number, y1: number, x2: number, y2: number): number
   }
 // Math.pow = "return" a base elevada ao expoente
 // Math.sqrt = "return" a raiz quadrada de um número
+//dbeudb

@@ -1,4 +1,4 @@
-import { expression } from "../../lab010";
+import { expression } from "../../lab01/lab010";
 describe("Testes da função expression", () => {
     test("expression 2 = -1", () => {
         //Arrange

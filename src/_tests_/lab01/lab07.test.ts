@@ -1,4 +1,4 @@
-import { totalMinutos } from "../../lab07";
+import { totalMinutos } from "../../lab01/lab07";
 
 describe("Testes - Lab07", () => {
     test("totalMinutos(16, 20) deve retornar 980", () => {

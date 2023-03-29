@@ -1,4 +1,4 @@
-import { distancia } from "../../lab09";
+import { distancia } from "../../lab01/lab09";
 describe("distancia", () => {
     test("distancia deve retornar 500", () => {
         //Arrange

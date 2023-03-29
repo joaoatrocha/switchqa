@@ -1,4 +1,4 @@
-import { celciusToFahnereite } from '../../lab06'
+import { celciusToFahnereite } from '../../lab01/lab06'
 
 describe('celciusToFahnereite', () => {
     test('celciusToFahnereite deve retornar 50', () => {

@@ -15,21 +15,20 @@
 // Math.floor = arredonda para baixo
 
 export function obterDigito(numero: number): number {
-    let digito1: number;
-    let digito2: number;
-    let digito3: number;
-  
-    if (numero < 100 || numero > 999) {
-      console.log("Número não tem 3 dígitos");
-      digito1 = -1;
-    } 
-    else {
-      digito3 = numero % 10;
-      digito2 = Math.floor((numero / 10) % 10);
-      digito1 = Math.floor(numero / 100) % 10;
-    }
-  
-    return digito1;
+  let digito1: number;
+  let digito2: number;
+  let digito3: number;
+
+  if (numero < 100 || numero > 999) {
+    digito1 = -1;
   }
-  
-  console.log(obterDigito(123));
+  else {
+    digito3 = numero % 10;
+    digito2 = Math.floor((numero / 10) % 10);
+    digito1 = Math.floor(numero / 100) % 10;
+  }
+
+  return digito1;
+}
+
+console.log(obterDigito(123));
